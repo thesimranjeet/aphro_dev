@@ -1,0 +1,57 @@
+.footer .container {
+  @include space;
+}
+
+.social > * {
+  margin-right: 1rem;
+}
+.social > *:last-child {
+  margin-right: 0;
+}
+
+.s-icon {
+  font-size: 1.5rem;
+  color: $dblue;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  border: 2px solid ($dblue);
+  transition: all 0.2s ease;
+}
+.s-icon:hover {
+  color: $white;
+  background-color: $red;
+  border: 2px solid ($red);
+}
+
+.contact {
+  @include space(0.5rem);
+  width: 100%;
+  @include mq(pc) {
+    width: 33%;
+  }
+}
+
+.footer-list {
+  text-align: center;
+  width: 50%;
+  justify-content: start;
+
+  @include mq(pc) {
+    width: 33%;
+  }
+
+  li:hover {
+    font-weight: 700;
+  }
+}
+
+.cprt {
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+  small {
+    width: 100%;
+  }
+}
