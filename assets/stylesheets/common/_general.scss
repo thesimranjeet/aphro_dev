@@ -1,0 +1,126 @@
+@mixin space($s: 1rem) {
+  > * {
+    margin-bottom: $s;
+  }
+  @include mq(tab) {
+    > * {
+      margin-bottom: 2 * $s;
+    }
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+@mixin space-a($s: 1rem) {
+  > * {
+    margin-bottom: $s;
+  }
+  @include mq(tab) {
+    > * {
+      margin-bottom: 2 * $s;
+    }
+  }
+}
+
+body {
+  background-color: var($white);
+  color: ($dblue);
+}
+
+html {
+  font-size: 16px;
+  font-family: $font;
+}
+/* @media (min-width: 480px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+} */
+
+// h1 {
+//   font-size: 3rem;
+// }
+// h2 {
+//   font-size: 2.5rem;
+// }
+// h3 {
+//   font-size: 2rem;
+// }
+// h4 {
+//   font-size: 1.8rem;
+// }
+// h5 {
+//   font-size: 1.5rem;
+// }
+// h6 {
+//   font-size: 1.3rem;
+// }
+// small {
+//   font-size: 0.8rem;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+small {
+  font-weight: 300;
+}
+em {
+  font-style: italic;
+  // text-transform: capitalize;
+}
+strong {
+  font-weight: 700;
+  // text-transform: capitalize;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* utility */
+// element > * {
+//   box-sizing: border-box;
+//   border: 1px solid var($black);
+// }
+/* .wrapper > * {
+  padding-right: 10rem;
+  padding-left: 10rem;
+} */
+
+.container {
+  padding: 2rem 0;
+  max-width: 80%;
+  margin: auto;
+}
+
+// @media (min-width: 480px) {
+//   .container {
+//     max-width: 90%;
+//   }
+// }
+// @media (min-width: 768px) {
+//   .container {
+//     max-width: 85%;
+//   }
+// }
+// @media (min-width: 1024px) {
+//   .container {
+//     max-width: 80%;
+//   }
+// }

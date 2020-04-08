@@ -1,0 +1,91 @@
+/* banner */
+.banner .container {
+  @include mq(opc) {
+    @include dir($r);
+  }
+}
+.banner .container > * {
+  width: 100%;
+}
+
+.intro {
+  justify-content: center;
+
+  @include mq(opc) {
+    text-align: left;
+  }
+}
+
+.intro {
+  @include space;
+}
+
+.app-links {
+  @include space-a;
+  @include mq(pc) {
+    @include dir($r);
+  }
+}
+.app-links > * {
+  @include mq(tab) {
+    margin-right: 2rem;
+  }
+}
+.btn-appstore {
+  border: 2px solid ($dblue);
+  @include border($radius);
+  // padding: 1rem;
+  transition: all 0.1s ease-in-out;
+
+  max-height: 6rem;
+  @include mq(omob) {
+    width: 100%;
+  }
+
+  @include mq(tab) {
+    min-width: 10rem;
+    justify-items: center;
+  }
+  i {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+}
+.btn-appstore:hover {
+  color: ($white);
+  background-color: ($green);
+  border-color: ($green);
+}
+
+.btn-txt {
+  padding: 0 1rem;
+}
+
+.mobile-container {
+  justify-content: center;
+}
+.mobile {
+  width: 8rem;
+
+  @include mq(tab) {
+    width: 10rem;
+  }
+
+  @include mq(opc) {
+    width: 15rem;
+  }
+}
+.mobile img {
+  width: 100%;
+  // filter: drop-shadow(30px 50px ($lred));
+}
+// @media (max-width: 1024px) {
+//   .banner {
+//     padding-top: 5rem;
+//   }
+// }
+@include mq(opc) {
+  .banner .container > * {
+    width: 50%;
+  }
+}
