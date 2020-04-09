@@ -1,3 +1,7 @@
+.footer {
+  margin-top: 10rem;
+}
+
 .footer .container {
   @include space;
 }
@@ -26,10 +30,11 @@
 }
 
 .contact {
-  @include space(0.5rem);
+  @include space(1rem);
   width: 100%;
-  @include mq(pc) {
+  @include mq(opc) {
     width: 33%;
+    border-right: 1px solid $dblue;
   }
 }
 
@@ -38,13 +43,16 @@
   width: 50%;
   justify-content: start;
 
-  @include mq(pc) {
+  @include mq(opc) {
     width: 33%;
   }
 
   li:hover {
     font-weight: 700;
   }
+}
+.footer-list:nth-of-type(2) {
+  border-right: 1px solid $dblue;
 }
 
 .cprt {
