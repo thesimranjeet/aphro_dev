@@ -801,7 +801,8 @@ input {
 @media (min-width: 980px) {
   .intro {
     text-align: left;
-    padding: 3rem;
+    padding-right: 3rem;
+    align-items: flex-start;
   }
 }
 
