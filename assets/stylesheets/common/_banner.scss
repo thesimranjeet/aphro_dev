@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-  background-color: $brand-1;
+  // background-color: $brand-1;
   // color: $color-1;
   // @include border($radius);
   @include mq(opc) {
@@ -44,7 +44,7 @@
     padding: 0.2rem;
     @include mq(opc) {
       padding-left: 1rem;
-      border-left: 1rem solid $brand-1-l;
+      border-left: 1rem solid $brand-1;
     }
     // border: 1px solid $color-2;
   }
