@@ -610,24 +610,6 @@ input {
   }
 }
 @media (max-width: 980px) {
-  .menu::-webkit-scrollbar {
-    opacity: 0;
-    width: 0.2rem;
-  }
-}
-@media (max-width: 980px) {
-  .menu::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-}
-@media (max-width: 980px) {
-  .menu::-webkit-scrollbar-thumb {
-    background-color: #fafafa;
-    opacity: 0.5;
-    height: 20px;
-  }
-}
-@media (max-width: 980px) {
   .toggle:checked ~ .menu {
     display: flex;
     transition: all 0.2s ease-in-out;
@@ -637,12 +619,12 @@ input {
 @media (max-width: 980px) {
   .menu > li {
     /* color: ($color-3); */
-    background-color: #252525;
   }
   .menu > li .sub-menu {
     /* padding-left: 1rem; */
     display: none;
     width: 100%;
+    background-color: #252525;
   }
   .menu > li span {
     padding: 1rem 0;
@@ -653,7 +635,8 @@ input {
     font: inherit;
     color: inherit;
     padding: 1rem;
-    border: 2px solid #161616;
+    border-top: 2px solid #252525;
+    border-bottom: 2px solid #252525;
   }
   .menu > li input:checked ~ .sub-menu {
     display: flex;
@@ -671,7 +654,8 @@ input {
 @media (max-width: 980px) {
   .sub-menu > li {
     padding: 1rem;
-    border: 2px solid #161616;
+    border-top: 2px solid #161616;
+    border-bottom: 2px solid #161616;
   }
 }
 @media (min-width: 980px) {
