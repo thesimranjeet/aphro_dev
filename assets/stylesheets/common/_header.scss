@@ -1,8 +1,8 @@
 /* header */
 
 .header {
-  // background-color: ($dblue);
-  color: ($dblue);
+  // background-color: ($color-2);
+  color: ($color-2);
   position: relative;
   font-weight: 700;
 }
@@ -38,30 +38,28 @@
     z-index: 999;
   }
   .menu-icon {
-    font-size: 2rem;
-    color: $red;
+    font-size: 1.4rem;
+    color: $color-2;
     font-weight: 300;
   }
   .menu-icon-close {
-    // position: absolute;
-    // right: 2rem;
-    // content: "";
-    // top: 2rem;
-    padding: 2rem;
-    color: $white;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color: $color-1;
   }
   .menu {
     position: relative;
     /* flex: 1 1 100%; */
-    color: $white;
+    color: $color-1;
     display: none;
     position: fixed;
     height: 100vh;
     width: 20rem;
-    background-color: ($dblue);
+    background-color: ($color-2);
     /* height: 0;
     overflow: hidden; */
-    right: 0;
+    right: -10rem;
+    animation: slide-o 0.5s forwards;
     top: 0;
     z-index: 10;
     overflow-y: scroll;
@@ -81,7 +79,7 @@
   }
 
   .menu::-webkit-scrollbar-thumb {
-    background-color: $white;
+    background-color: $color-1;
     opacity: 0.5;
     height: 20px;
   }
@@ -89,9 +87,11 @@
   .toggle:checked ~ .menu {
     display: flex;
     transition: all 0.2s ease-in-out;
+    animation: slide 0.5s forwards;
+    // animation-delay: 2s;
   }
   .menu > li {
-    /* color: ($grey); */
+    /* color: ($color-3); */
   }
   .menu li {
     /* width: 100%; */
@@ -111,11 +111,13 @@
     flex-wrap: nowrap;
   }
   .menu > li {
+    // transition: 0.2s;
     margin-right: 1rem;
     padding: 0.5rem;
     i {
       padding: 0 0.5rem;
-      transition: all 0.25s;
+      // transition: all 0.25s;
+      transition: all 0.2s 0.1s;
     }
     // transition: 0.2s;
   }
@@ -134,11 +136,11 @@
     display: flex;
     width: fit-content;
     /* padding: 1rem; */
-    background-color: ($dblue);
+    background-color: ($color-2);
     z-index: 100;
-    color: ($white);
+    color: ($color-1);
     top: 3rem;
-    transition: all 0.2s ease-in-out;
+    // transition: all 0.2s ease-in-out;
     /* border-radius: 2rem; */
     transition: all 0.2s 0.1s;
   }
@@ -148,23 +150,47 @@
     padding: 1rem;
   }
   .sub-menu li:hover {
-    background-color: ($white);
+    background-color: ($color-1);
     // font-size: 1.22rem;
-    color: ($dblue);
+    color: ($color-2);
     transition: all 0.2s ease-in-out;
-    /* border-bottom: 1px solid ($dblue); */
+    /* border-bottom: 1px solid ($color-2); */
   }
   .menu > li:hover .sub-menu {
     visibility: visible;
     transition: 0s;
   }
   .menu > li:hover {
-    color: $white;
-    background-color: $dblue;
-    outline: 3rem solid transparent;
+    // color: $color-1;
+    // background-color: $color-2;
+    // outline: 3rem solid transparent;
     @include border($radius);
     i {
       transform: rotate(180deg);
     }
+  }
+}
+
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+@-webkit-keyframes slide-o {
+  100% {
+    right: -100rem;
+  }
+}
+
+@keyframes slide-o {
+  100% {
+    right: -100rem;
   }
 }

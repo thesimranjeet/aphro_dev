@@ -135,128 +135,128 @@ table {
 
 /* cyrillic-ext */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");
   unicode-range: U+0370-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format("woff2");
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhduz8A.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxduz8A.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxduz8A.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBduz8A.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format("woff2");
   unicode-range: U+0370-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBduz8A.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRduz8A.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2) format("woff2");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 * {
@@ -275,26 +275,16 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 @media (min-width: 480px) {
   h1 {
     font-size: 2.7rem;
   }
 }
-@media (min-width: 480px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
 
 h2 {
-  font-size: 2.1rem;
-}
-@media (min-width: 737px) {
-  h2 {
-    font-size: 2.5rem;
-  }
+  font-size: 2.5rem;
 }
 @media (min-width: 480px) {
   h2 {
@@ -303,12 +293,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
-}
-@media (min-width: 737px) {
-  h3 {
-    font-size: 2rem;
-  }
+  font-size: 2rem;
 }
 @media (min-width: 480px) {
   h3 {
@@ -317,12 +302,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2rem;
-}
-@media (min-width: 737px) {
-  h4 {
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
 }
 @media (min-width: 480px) {
   h4 {
@@ -457,14 +437,41 @@ a:any-link {
   flex-wrap: wrap;
 }
 
+[class*=grid-] {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+/* Center child*/
+.center-child {
+  display: grid;
+  place-items: center;
+}
+
 body {
-  background-color: var(#fafafa);
-  color: #011627;
+  background-color: #fafafa;
+  color: #161616;
 }
 
 html {
   font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* @media (min-width: 480px) {
@@ -512,7 +519,7 @@ a:any-link {
 
 /* header */
 .header {
-  color: #011627;
+  color: #161616;
   position: relative;
   font-weight: 700;
 }
@@ -552,13 +559,14 @@ a:any-link {
   }
 
   .menu-icon {
-    font-size: 2rem;
-    color: #e32227;
+    font-size: 1.4rem;
+    color: #161616;
     font-weight: 300;
   }
 
   .menu-icon-close {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
     color: #fafafa;
   }
 
@@ -570,10 +578,11 @@ a:any-link {
     position: fixed;
     height: 100vh;
     width: 20rem;
-    background-color: #011627;
+    background-color: #161616;
     /* height: 0;
     overflow: hidden; */
-    right: 0;
+    right: -10rem;
+    animation: slide-o 0.5s forwards;
     top: 0;
     z-index: 10;
     overflow-y: scroll;
@@ -607,11 +616,12 @@ a:any-link {
   .toggle:checked ~ .menu {
     display: flex;
     transition: all 0.2s ease-in-out;
+    animation: slide 0.5s forwards;
   }
 }
 @media (max-width: 980px) {
   .menu > li {
-    /* color: ($grey); */
+    /* color: ($color-3); */
   }
 }
 @media (max-width: 980px) {
@@ -641,7 +651,7 @@ a:any-link {
   }
   .menu > li i {
     padding: 0 0.5rem;
-    transition: all 0.25s;
+    transition: all 0.2s 0.1s;
   }
 
   .nav li:last-child {
@@ -661,11 +671,10 @@ a:any-link {
     display: flex;
     width: fit-content;
     /* padding: 1rem; */
-    background-color: #011627;
+    background-color: #161616;
     z-index: 100;
     color: #fafafa;
     top: 3rem;
-    transition: all 0.2s ease-in-out;
     /* border-radius: 2rem; */
     transition: all 0.2s 0.1s;
   }
@@ -677,9 +686,9 @@ a:any-link {
 
   .sub-menu li:hover {
     background-color: #fafafa;
-    color: #011627;
+    color: #161616;
     transition: all 0.2s ease-in-out;
-    /* border-bottom: 1px solid ($dblue); */
+    /* border-bottom: 1px solid ($color-2); */
   }
 
   .menu > li:hover .sub-menu {
@@ -688,16 +697,60 @@ a:any-link {
   }
 
   .menu > li:hover {
-    color: #fafafa;
-    background-color: #011627;
-    outline: 3rem solid transparent;
     border-radius: 0.5rem;
   }
   .menu > li:hover i {
     transform: rotate(180deg);
   }
 }
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+@-webkit-keyframes slide-o {
+  100% {
+    right: -100rem;
+  }
+}
+@keyframes slide-o {
+  100% {
+    right: -100rem;
+  }
+}
 /* banner */
+.banner {
+  background-color: #e32227;
+}
+@media (min-width: 980px) {
+  .banner {
+    padding-bottom: 3rem;
+  }
+}
+
+.banner .container h4 {
+  font-weight: 300;
+}
+@media (max-width: 480px) {
+  .banner .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 980px) {
+  .banner .container > * {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 980px) and (min-width: 480px) {
+  .banner .container > * {
+    margin-bottom: 4rem;
+  }
+}
 @media (min-width: 980px) {
   .banner .container {
     flex-direction: row;
@@ -709,14 +762,11 @@ a:any-link {
 }
 
 .intro {
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 0.5rem;
   justify-content: center;
 }
-@media (min-width: 980px) {
-  .intro {
-    text-align: left;
-  }
-}
-
 .intro > * {
   margin-bottom: 1rem;
 }
@@ -728,7 +778,31 @@ a:any-link {
 .intro > *:last-child {
   margin-bottom: 0;
 }
+@media (min-width: 980px) {
+  .intro {
+    text-align: left;
+    padding: 3rem;
+  }
+}
+.intro h2 {
+  background-color: #161616;
+  color: #fafafa;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+@media (min-width: 980px) {
+  .intro h2 {
+    padding-left: 1rem;
+    border-left: 1rem solid #ed7275;
+  }
+}
 
+@media (max-width: 480px) {
+  .app-links {
+    max-width: 60%;
+    align-self: center;
+  }
+}
 .app-links > * {
   margin-bottom: 1rem;
 }
@@ -740,6 +814,7 @@ a:any-link {
 @media (min-width: 737px) {
   .app-links {
     flex-direction: row;
+    justify-content: start;
   }
 }
 
@@ -750,12 +825,12 @@ a:any-link {
 }
 
 .btn-appstore {
-  background-color: #011627;
+  height: auto;
   color: #fafafa;
-  border: 2px solid #011627;
-  border-radius: 0.5rem;
-  transition: all 0.1s ease-in-out;
-  max-height: 6rem;
+  transition: transform 0.25s ease-in-out;
+}
+.btn-appstore img {
+  width: 100%;
 }
 @media (max-width: 480px) {
   .btn-appstore {
@@ -764,26 +839,9 @@ a:any-link {
 }
 @media (min-width: 480px) {
   .btn-appstore {
-    min-width: 10rem;
+    max-width: 10rem;
     justify-items: center;
   }
-}
-.btn-appstore i {
-  color: #fafafa;
-  font-size: 2.5rem;
-  padding: 1rem;
-}
-
-.btn-appstore:hover {
-  color: #fafafa;
-  background-color: #2aa82a;
-  border-color: #2aa82a;
-  filter: drop-shadow(30px 20px #9ed79e);
-}
-
-.btn-txt {
-  color: #fafafa;
-  padding: 0 1rem;
 }
 
 .mobile-container {
@@ -791,7 +849,7 @@ a:any-link {
 }
 
 .mobile {
-  width: 8rem;
+  width: 11rem;
 }
 @media (min-width: 480px) {
   .mobile {
@@ -806,15 +864,11 @@ a:any-link {
 
 .mobile img {
   width: 100%;
-}
-@media (min-width: 480px) {
-  .mobile img {
-    filter: drop-shadow(50px 10px #ed7275);
-  }
+  filter: drop-shadow(1rem 1rem 2rem #252525);
 }
 @media (min-width: 980px) {
   .mobile img {
-    filter: drop-shadow(30px 50px #ed7275);
+    filter: drop-shadow(2rem 2rem 2rem #252525);
   }
 }
 
@@ -823,10 +877,6 @@ a:any-link {
     width: 50%;
   }
 }
-.footer {
-  margin-top: 10rem;
-}
-
 .footer .container > * {
   margin-bottom: 1rem;
 }
@@ -849,12 +899,12 @@ a:any-link {
 
 .s-icon {
   font-size: 1.5rem;
-  color: #011627;
+  color: #fafafa !important;
+  background-color: #161616;
   width: 4rem;
   height: 4rem;
   line-height: 4rem;
   border-radius: 50%;
-  border: 2px solid #011627;
   transition: all 0.2s ease;
 }
 
@@ -881,7 +931,7 @@ a:any-link {
 @media (min-width: 980px) {
   .contact {
     width: 33%;
-    border-right: 1px solid #011627;
+    border-right: 1px solid #fafafa;
   }
 }
 
@@ -900,7 +950,7 @@ a:any-link {
 }
 
 .footer-list:nth-of-type(2) {
-  border-right: 1px solid #011627;
+  border-right: 1px solid #fafafa;
 }
 
 .cprt {

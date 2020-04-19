@@ -24,8 +24,8 @@
 }
 
 body {
-  background-color: var($white);
-  color: ($dblue);
+  background-color: $color-1;
+  color: ($color-2);
 }
 
 html {
@@ -96,7 +96,7 @@ a:any-link {
 /* utility */
 // element > * {
 //   box-sizing: border-box;
-//   border: 1px solid var($black);
+//   border: 1px solid $color-4;
 // }
 /* .wrapper > * {
   padding-right: 10rem;
