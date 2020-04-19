@@ -12,6 +12,7 @@
     font-weight: 300;
   }
   @include mq(omob) {
+    padding: 1rem 0;
     max-width: 100%;
   }
   @include mq(nopc) {
@@ -111,14 +112,14 @@
   justify-content: center;
 }
 .mobile {
-  width: 11rem;
+  max-width: 12rem;
 
   @include mq(tab) {
-    width: 10rem;
+    // width: 10rem;
   }
 
   @include mq(opc) {
-    width: 15rem;
+    max-width: 15rem;
   }
 }
 .mobile img {
