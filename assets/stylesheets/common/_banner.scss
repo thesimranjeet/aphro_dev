@@ -36,7 +36,8 @@
 
   @include mq(opc) {
     text-align: left;
-    padding: 3rem;
+    padding-right: 3rem;
+    align-items: flex-start;
   }
   // h2 {
   //   background-color: $color-2;
