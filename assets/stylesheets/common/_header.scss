@@ -5,6 +5,11 @@
   color: ($color-2);
   position: relative;
   font-weight: 700;
+  .container {
+    @include mq(omob) {
+      padding-bottom: 0.2rem;
+    }
+  }
 }
 
 .logo {
@@ -31,11 +36,21 @@
 .toggle {
   display: none;
 }
+
+.menu > li {
+  i {
+    padding: 0 0.5rem;
+    transition: all 0.2s 0.1s;
+  }
+}
+input {
+  display: none;
+}
 @include mq(nopc) {
   .header {
     // position: fixed;
     width: 100%;
-    z-index: 999;
+    // z-index: 999;
   }
   .menu-icon {
     font-size: 1.4rem;
@@ -44,10 +59,13 @@
   }
   .menu-icon-close {
     padding-top: 2rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     color: $color-1;
+    margin-bottom: 1rem;
   }
   .menu {
+    justify-content: flex-start;
+    align-items: flex-start;
     position: relative;
     /* flex: 1 1 100%; */
     color: $color-1;
@@ -63,7 +81,6 @@
     top: 0;
     z-index: 10;
     overflow-y: scroll;
-    padding-left: 1rem;
 
     @include mq(omob) {
       max-width: 15rem;
@@ -71,7 +88,7 @@
   }
   .menu::-webkit-scrollbar {
     opacity: 0;
-    width: 0.5rem;
+    width: 0.2rem;
   }
 
   .menu::-webkit-scrollbar-track {
@@ -92,16 +109,49 @@
   }
   .menu > li {
     /* color: ($color-3); */
+    background-color: $color-3;
+    .sub-menu {
+      /* padding-left: 1rem; */
+      display: none;
+      width: 100%;
+    }
+    span {
+      padding: 1rem 0;
+      // display: block;
+    }
+    label {
+      display: block;
+      width: 100%;
+      font: inherit;
+      color: inherit;
+      padding: 1rem;
+      border: 2px solid $color-2;
+    }
+
+    input:checked ~ .sub-menu {
+      display: flex;
+      transition: all 0.2s ease-in-out;
+
+      // animation-delay: 2s;
+    }
+    input:checked ~ label {
+      i {
+        transform: rotate(180deg);
+      }
+    }
   }
   .menu li {
-    /* width: 100%; */
-    flex: 1 1 100%;
-    padding: 1rem;
+    width: 100%;
+    // flex: 1 1 100%;
   }
 
-  .sub-menu {
-    /* padding-left: 1rem; */
+  .sub-menu > li {
+    padding: 1rem;
+    border: 2px solid $color-2;
   }
+  // .menu > li:hover .sub-menu {
+  //   display: flex;
+  // }
 }
 @include mq(opc) {
   .menu-icon {
@@ -109,17 +159,15 @@
   }
   .menu {
     flex-wrap: nowrap;
+    @include dir($r);
   }
   .menu > li {
     // transition: 0.2s;
     margin-right: 1rem;
     padding: 0.5rem;
-    i {
-      padding: 0 0.5rem;
-      // transition: all 0.25s;
-      transition: all 0.2s 0.1s;
+    label {
+      display: block;
     }
-    // transition: 0.2s;
   }
   .nav li:last-child {
     margin-right: 0;

@@ -46,12 +46,20 @@
               <i class="fas fa-bars"></i>
             </label>
             <input type="checkbox" name="toggle" id="toggle" class="toggle" />
-            <ul class="menu flex-row flex-wrap">
+            <ul class="menu flex-col flex-wrap">
               <label for="toggle" class="menu-icon menu-icon-close">
                 <i class="fas fa-times"></i>
               </label>
               <li>
-                Products <i class="fas fa-angle-down"></i>
+                <input
+                  type="checkbox"
+                  name="toggle2"
+                  id="toggle2"
+                  class="toggle2"
+                />
+                <label for="toggle2" class="menu-icon">
+                  <span>Products <i class="fas fa-angle-down"></i></span>
+                </label>
                 <ul class="sub-menu flex-col">
                   <li>
                     <a href="#">
@@ -76,7 +84,15 @@
                 </ul>
               </li>
               <li>
-                Company <i class="fas fa-angle-down"></i>
+                <input
+                  type="checkbox"
+                  name="toggle3"
+                  id="toggle3"
+                  class="toggle3"
+                />
+                <label for="toggle3" class="menu-icon">
+                  <span>Company <i class="fas fa-angle-down"></i></span>
+                </label>
                 <ul class="sub-menu flex-col">
                   <li>
                     <a href="#">
@@ -101,7 +117,7 @@
       </header>
       <main>
         <section class="banner">
-          <div class="container flex-col-r flex-wrap">
+          <div class="container flex-col flex-wrap">
             <div
               class="intro flex-col text-center flex-ai-center flex-jc-center"
             >
