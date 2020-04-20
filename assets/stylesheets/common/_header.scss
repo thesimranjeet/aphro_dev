@@ -46,6 +46,7 @@
 input {
   display: none;
 }
+
 @include mq(nopc) {
   .header {
     // position: fixed;
@@ -58,22 +59,22 @@ input {
     font-weight: 300;
   }
   .menu-icon-close {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    color: $color-1;
-    margin-bottom: 1rem;
+    // padding-top: 2rem;
+    // padding-left: 2rem;
+    color: $color-2;
+    // margin-bottom: 1rem;
   }
   .menu {
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
     /* flex: 1 1 100%; */
-    color: $color-1;
+    color: $color-2;
     display: none;
     position: fixed;
     height: 100vh;
     width: 20rem;
-    background-color: ($color-2);
+    background-color: ($color-5);
     /* height: 0;
     overflow: hidden; */
     right: -10rem;
@@ -85,6 +86,15 @@ input {
     @include mq(omob) {
       max-width: 15rem;
     }
+  }
+  .menu-head {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    @include mq(mob) {
+      padding-right: 3rem;
+    }
+    padding-right: 2rem;
   }
   // .menu::-webkit-scrollbar {
   //   display: none;
@@ -115,21 +125,23 @@ input {
       /* padding-left: 1rem; */
       display: none;
       width: 100%;
-      background-color: $color-3;
+      background-color: $color-6;
+      border-bottom: 2px solid $color-5;
     }
     span {
       padding: 1rem 0;
       // display: block;
     }
     label {
-      display: block;
+      // display: block;
+      background-color: $color-1;
       width: 100%;
       font: inherit;
       color: inherit;
-      padding: 1rem;
+      padding: 0 1rem;
       // border: 2px solid $color-2;
-      border-top: 2px solid $color-3;
-      border-bottom: 2px solid $color-3;
+      border-top: 2px solid $color-5;
+      border-bottom: 2px solid $color-5;
     }
 
     input:checked ~ .sub-menu {
@@ -139,27 +151,36 @@ input {
       // animation-delay: 2s;
     }
     input:checked ~ label {
+      background-color: $color-6;
       i {
         transform: rotate(180deg);
       }
+      border-bottom: none;
     }
   }
   .menu li {
     width: 100%;
+    text-transform: capitalize;
+    // font-weight: 300;
     // flex: 1 1 100%;
   }
 
   .sub-menu > li {
     padding: 1rem;
-    border-top: 2px solid $color-2;
-    border-bottom: 2px solid $color-2;
+    // border-top: 2px solid $color-2;
+    // border-bottom: 2px solid $color-2;
     // border: 2px solid $color-2;
   }
   // .menu > li:hover .sub-menu {
   //   display: flex;
   // }
 }
+
+/////////
 @include mq(opc) {
+  .menu-head {
+    display: none;
+  }
   .menu-icon {
     display: none;
   }

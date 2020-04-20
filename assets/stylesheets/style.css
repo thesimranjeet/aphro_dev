@@ -578,10 +578,7 @@ input {
   }
 
   .menu-icon-close {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    color: #fafafa;
-    margin-bottom: 1rem;
+    color: #161616;
   }
 
   .menu {
@@ -589,12 +586,12 @@ input {
     align-items: flex-start;
     position: relative;
     /* flex: 1 1 100%; */
-    color: #fafafa;
+    color: #161616;
     display: none;
     position: fixed;
     height: 100vh;
     width: 20rem;
-    background-color: #161616;
+    background-color: #e7e7e7;
     /* height: 0;
     overflow: hidden; */
     right: -10rem;
@@ -607,6 +604,14 @@ input {
 @media (max-width: 980px) and (max-width: 480px) {
   .menu {
     max-width: 15rem;
+  }
+}
+@media (max-width: 980px) {
+  .menu-head {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    padding-right: 2rem;
   }
 }
 @media (max-width: 980px) {
@@ -624,23 +629,28 @@ input {
     /* padding-left: 1rem; */
     display: none;
     width: 100%;
-    background-color: #252525;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #e7e7e7;
   }
   .menu > li span {
     padding: 1rem 0;
   }
   .menu > li label {
-    display: block;
+    background-color: #fafafa;
     width: 100%;
     font: inherit;
     color: inherit;
-    padding: 1rem;
-    border-top: 2px solid #252525;
-    border-bottom: 2px solid #252525;
+    padding: 0 1rem;
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7;
   }
   .menu > li input:checked ~ .sub-menu {
     display: flex;
     transition: all 0.2s ease-in-out;
+  }
+  .menu > li input:checked ~ label {
+    background-color: #f5f5f5;
+    border-bottom: none;
   }
   .menu > li input:checked ~ label i {
     transform: rotate(180deg);
@@ -649,16 +659,19 @@ input {
 @media (max-width: 980px) {
   .menu li {
     width: 100%;
+    text-transform: capitalize;
   }
 }
 @media (max-width: 980px) {
   .sub-menu > li {
     padding: 1rem;
-    border-top: 2px solid #161616;
-    border-bottom: 2px solid #161616;
   }
 }
 @media (min-width: 980px) {
+  .menu-head {
+    display: none;
+  }
+
   .menu-icon {
     display: none;
   }
